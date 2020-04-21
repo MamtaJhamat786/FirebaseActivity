@@ -1,2 +1,2 @@
 # FirebaseActivity
-It will store the result in cloud Firestore with timestamp.
+It will store the result of calculation made by the user in cloud Firestore with timestamp.
