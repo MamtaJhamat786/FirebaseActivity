@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                int number1=Integer.parseInt(firstNum.getText().toString().trim());
-                int number2=Integer.parseInt(secondNum.getText().toString().trim());
+                int number1=Integer.parseInt(firstNum.getText().toString());
+                int number2=Integer.parseInt(secondNum.getText().toString());
                 String value1=String.valueOf(number1);
                 String value2=String.valueOf(number2);
                 Result result=new Result(number1,number2);
@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
         subtractButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int number1=Integer.parseInt(firstNum.getText().toString().trim());
-                int number2=Integer.parseInt(secondNum.getText().toString().trim());
+                int number1=Integer.parseInt(firstNum.getText().toString());
+                int number2=Integer.parseInt(secondNum.getText().toString());
                 String value1=String.valueOf(number1);
                 String value2=String.valueOf(number2);
                 Result result=new Result(number1,number2);
@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
         multiplyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int number1=Integer.parseInt(firstNum.getText().toString().trim());
-                int number2=Integer.parseInt(secondNum.getText().toString().trim());
+                int number1=Integer.parseInt(firstNum.getText().toString());
+                int number2=Integer.parseInt(secondNum.getText().toString());
                 String value1=String.valueOf(number1);
                 String value2=String.valueOf(number2);
                 Result result=new Result(number1,number2);
@@ -101,8 +101,8 @@ public class MainActivity extends AppCompatActivity {
         divideButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int number1=Integer.parseInt(firstNum.getText().toString().trim());
-                int number2=Integer.parseInt(secondNum.getText().toString().trim());
+                int number1=Integer.parseInt(firstNum.getText().toString());
+                int number2=Integer.parseInt(secondNum.getText().toString());
                 String value1=String.valueOf(number1);
                 String value2=String.valueOf(number2);
                 Result result=new Result(number1,number2);
